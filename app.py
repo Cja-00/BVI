@@ -4,11 +4,13 @@ import altair as alt
 import plotly.io as pio
 
 from utils import load_index_from_bytes
-
-import os, pathlib, streamlit as st
+import streamlit as st, pathlib, os
+st.sidebar.write("Streamlit version:", st.__version__)
+st.sidebar.write("showSidebarNavigation:", st.config.get_option("client.showSidebarNavigation"))
 st.sidebar.write("CWD:", pathlib.Path().resolve())
 st.sidebar.write("Has 'pages' dir:", os.path.isdir("pages"))
 st.sidebar.write("Pages files:", os.listdir("pages") if os.path.isdir("pages") else "—")
+
 
 
 st.set_page_config(page_title="Biosecurity Vigilance Index — Dashboard", page_icon="🛡️", layout="wide")
@@ -29,4 +31,5 @@ with st.sidebar:
         st.info("Loaded default CSV from repository. Upload a file to override.")
 
 st.write("Pick a page from the left sidebar.")
+
 
