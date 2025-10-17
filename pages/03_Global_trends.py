@@ -4,6 +4,16 @@ import altair as alt
 
 from utils import YEAR_COL, global_vector_timeseries, global_tier_timeseries
 
+try:
+    import numpy as np, pandas as pd, altair as alt
+    import plotly.graph_objects as go
+    # only on the Country & Map page if used:
+    from streamlit_plotly_events import plotly_events
+    from utils import (...)  # your actual utils imports
+except Exception as e:
+    st.sidebar.error(f"Page import error: {e}")
+    raise
+
 st.title("📈 Global trends")
 
 if "df_bvi" not in st.session_state:
@@ -59,3 +69,4 @@ with c2:
             file_name="global_measure_tier_timeseries.csv",
             mime="text/csv"
         )
+
