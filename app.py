@@ -24,8 +24,9 @@ st.write("Pick a page from the left sidebar.")
 
 with st.sidebar:
     st.page_link("app.py", label="🏠 Home")
-    st.page_link("pages/01_Country_and_Map.py", label="🌍 Country & Map")
-    st.page_link("pages/02_Compare_with_External.py", label="🔗 Compare with External")
-    st.page_link("pages/03_Global_trends.py", label="📈 Global trends")
+    st.page_link("pages/01_.py", label="🌍 Country & Map")
+    st.page_link("pages/02_.py", label="🔗 Compare with External")
+    st.page_link("pages/03_.py", label="📈 Global trends")
+
 
 
