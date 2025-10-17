@@ -7,7 +7,6 @@ st.set_page_config(page_title="Biosecurity Vigilance Index — Dashboard", page_
 pio.templates.default = "plotly_white"
 alt.themes.enable("quartz")
 
-import streamlit as st
 try:
     # internal API, but handy for debugging
     from streamlit.runtime.scriptrunner import get_pages
@@ -31,6 +30,7 @@ with st.sidebar:
         st.info("Loaded default CSV from repository. Upload a file to override.")
 
 st.write("Pick a page from the left sidebar.")
+
 
 
 
