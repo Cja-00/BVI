@@ -7,6 +7,16 @@ st.set_page_config(page_title="Biosecurity Vigilance Index — Dashboard", page_
 pio.templates.default = "plotly_white"
 alt.themes.enable("quartz")
 
+import streamlit as st
+try:
+    # internal API, but handy for debugging
+    from streamlit.runtime.scriptrunner import get_pages
+    pages = get_pages("")
+    st.sidebar.write("Registered pages:", list(pages.keys()))
+except Exception as e:
+    st.sidebar.write("Could not introspect pages:", e)
+
+
 st.title("🛡️ Biosecurity Vigilance Index — Dashboard")
 st.caption("Use the **Pages** in the left sidebar to explore the 🌍 Country & Map, 🔗 Compare with External, and 📈 Global trends.")
 
@@ -22,11 +32,7 @@ with st.sidebar:
 
 st.write("Pick a page from the left sidebar.")
 
-with st.sidebar:
-    st.page_link("app.py", label="🏠 Home")
-    st.page_link("pages/01_.py", label="🌍 Country & Map")
-    st.page_link("pages/02_.py", label="🔗 Compare with External")
-    st.page_link("pages/03_.py", label="📈 Global trends")
+
 
 
 
