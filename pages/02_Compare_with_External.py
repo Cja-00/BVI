@@ -1,24 +1,21 @@
 # pages/02_🔗 Compare with External.py
+# -*- coding: utf-8 -*-
+import streamlit as st
+try:
+    pass  # import your libs below normally
+except Exception as e:
+    st.sidebar.error(f"Page import error: {e}")
+    raise
+
 import re
 import numpy as np
 import pandas as pd
-import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
 
 from utils import (
     COUNTRY_COL, YEAR_COL, DEFAULT_EXTERNAL, tidy_external_csv
 )
-
-try:
-    import numpy as np, pandas as pd, altair as alt
-    import plotly.graph_objects as go
-    # only on the Country & Map page if used:
-    from streamlit_plotly_events import plotly_events
-    from utils import (...)  # your actual utils imports
-except Exception as e:
-    st.sidebar.error(f"Page import error: {e}")
-    raise
 
 st.title("🔗 Compare BVI with External Data")
 
@@ -147,4 +144,5 @@ if y_indicator:
             file_name=f"compare_{year_cmp}_{re.sub(r'[^A-Za-z0-9]+','_',y_indicator)}.csv",
             mime="text/csv"
         )
+
 
