@@ -9,13 +9,15 @@ st.set_page_config(page_title="Biosecurity Vigilance Index — Dashboard", page_
 pio.templates.default = "plotly_white"
 alt.themes.enable("quartz")
 
-try:
-    # internal API, but handy for debugging
-    from streamlit.runtime.scriptrunner import get_pages
-    pages = get_pages("")
-    st.sidebar.write("Registered pages:", list(pages.keys()))
-except Exception as e:
-    st.sidebar.write("Could not introspect pages:", e)
+# safe diagnostics (keep temporarily)
+import os, pathlib, streamlit as st
+with st.sidebar:
+    st.write("Streamlit:", st.__version__)
+    st.write("CWD:", pathlib.Path().resolve())
+    st.write("Has 'pages' dir:", os.path.isdir("pages"))
+    st.write("Pages files:", os.listdir("pages") if os.path.isdir("pages") else "—")
+    st.write("showSidebarNavigation:", st.config.get_option("client.showSidebarNavigation"))
+
 
 
 st.title("🛡️ Biosecurity Vigilance Index — Dashboard")
@@ -32,6 +34,7 @@ with st.sidebar:
         st.info("Loaded default CSV from repository. Upload a file to override.")
 
 st.write("Pick a page from the left sidebar.")
+
 
 
 
