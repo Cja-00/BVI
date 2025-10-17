@@ -1,0 +1,390 @@
+﻿Country,Physical Risk
+Aruba,2.92
+Afghanistan,3.28
+Angola,3.36
+Anguilla,3.04
+Albania,3.62
+Andorra,2.68
+United Arab Emirates,3.7
+Argentina,3.28
+Armenia,3.74
+American Samoa,NA
+French Southern Territories,2.72
+Antigua and Barbuda,3.16
+Australia,2.92
+Austria,3.15
+Azerbaijan,3.66
+Burundi,3.16
+Belgium,3.42
+Benin,3.94
+Bonaire,2.92
+Saba,3.04
+Saint Eustatius,3.04
+Burkina Faso,3.45
+Bangladesh,3.91
+Bulgaria,3.59
+Bahrain,3.89
+Bahamas,3.21
+Bosnia and Herzegovina,3.33
+Saint Barthelemy,3.04
+Belarus,3.01
+Belize,3.27
+Bermuda,NA
+Bolivia,3.16
+Brazil,3.12
+Barbados,3.06
+Brunei Darussalam,3.27
+Bhutan,2.98
+Bouvet Island,NA
+Botswana,3.19
+Central African Republic,3.03
+Canada,2.64
+Cocos Islands,NA
+Switzerland,3.35
+Chile,3.37
+China,3.14
+Côte d'Ivoire,3.79
+Cameroon,3.51
+Congo DRC,2.99
+Congo,2.92
+Cook Islands,NA
+Colombia,3.14
+Comoros,3.1
+Cabo Verde,NA
+Costa Rica,3.3
+Cuba,3.5
+Curacao,2.92
+Christmas Island,NA
+Cayman Islands,2.83
+Cyprus,3.67
+Czech Republic,3.36
+Germany,2.85
+Djibouti,3.32
+Dominica,3.09
+Denmark,3.21
+Dominican Republic,3.94
+Aksai Chin (disputed),3.21
+Abyei (disputed),3.33
+Western Sahara (disputed),2.98
+Arunachal Pradesh (disputed),3.35
+Algeria,3.24
+Ecuador,3.28
+Egypt,3.61
+Eritrea,3.24
+Spain,2.99
+Canarias,2.82
+Estonia,2.92
+Ethiopia,3.06
+Finland,3.09
+Fiji,3.05
+Falkland Islands,2.34
+France,3.04
+Clipperton,2.64
+Faroe Islands,2.17
+Micronesia,3.12
+Gabon,2.79
+United Kingdom,3.19
+Georgia,3.53
+Guernsey,3
+Ghana,4.04
+Gibraltar,3.34
+Guinea,3.31
+Guadeloupe,3.09
+Gambia,3.73
+Guinea-Bissau,3.49
+Equatorial Guinea,2.77
+Greece,3.68
+Grenada,3.06
+Greenland,2.42
+Guatemala,3.77
+French Guiana,2.77
+Guam,3.51
+Guyana,2.69
+Heard Island and McDonald Islands,NA
+Honduras,3.69
+Croatia,3.25
+Haiti,3.45
+Hungary,3.55
+Indonesia,3.19
+Isle of Man,2.47
+India,3.65
+British Indian Ocean Territory,NA
+Ireland,3.15
+Iran,3.55
+Iraq,3.39
+Iceland,2.55
+Israel,4.13
+Italy,3.17
+Jamaica,3.37
+Jersey,3
+Jordan,3.67
+Japan,3.12
+Kazakhstan,3.33
+Kenya,3.2
+Kyrgyzstan,3.43
+Cambodia,3.86
+Kiribati,2.8
+Saint Kitts and Nevis,3.04
+South Korea,3.21
+Kuwait,3.69
+Laos,3.88
+Lebanon,3.97
+Liberia,3.22
+Libya,3.15
+Saint Lucia,3.06
+Liechtenstein,3.3
+Sri Lanka,3.65
+Lesotho,3.38
+Lithuania,3.31
+Luxembourg,3.09
+Latvia,3.11
+Saint Martin,3.04
+Morocco,3.65
+Monaco,3.44
+Moldova,3.43
+Madagascar,3.28
+Maldives,NA
+Mexico,3.04
+Marshall Islands,2.8
+North Macedonia,3.38
+Mali,3.79
+Malta,3.62
+Myanmar,3.44
+Montenegro,3.48
+Mongolia,3.03
+Northern Mariana Islands,3.51
+Mozambique,3.16
+Mauritania,3.36
+Montserrat,3.16
+Martinique,3.06
+Mauritius,NA
+Malawi,3.57
+Malaysia,3.58
+Mayotte,3.1
+Namibia,3.24
+New Caledonia,2.75
+Niger,3.29
+Norfolk Island,2.56
+Nigeria,4.02
+Nicaragua,3.62
+Netherlands,3.58
+Norway,2.57
+Nepal,3.62
+Nauru,2.8
+New Zealand,3.39
+Oman,3.39
+Pakistan,4.02
+Panama,3.31
+Pitcairn,NA
+Peru,3.09
+Philippines,3.68
+Palau,3.12
+Papua New Guinea,2.96
+Poland,3.54
+Puerto Rico,3.3
+North Korea,3.14
+Portugal,3.42
+Azores,NA
+Madeira,2.82
+Paraguay,3.69
+Palestinian Territory,4.08
+French Polynesia,NA
+Qatar,3.53
+Réunion,NA
+Romania,3.52
+Russian Federation,2.9
+Rwanda,3.78
+Saudi Arabia,3.72
+Sudan,3.36
+Senegal,3.88
+Singapore,3.79
+South Georgia and South Sandwich Islands,NA
+Saint Helena,NA
+Solomon Islands,3.08
+Sierra Leone,3.61
+El Salvador,3.78
+San Marino,3.31
+Somalia,2.88
+Saint Pierre and Miquelon,2.83
+Serbia,3.47
+South Sudan,3.09
+Sao Tome and Principe,3
+Suriname,2.89
+Slovakia,3.42
+Slovenia,3.2
+Sweden,3.08
+Eswatini,3.19
+Sint Maarten,3.04
+Seychelles,2.83
+Syria,3.31
+Turks and Caicos Islands,2.34
+Chad,3.61
+Togo,3.6
+Thailand,3.58
+Tajikistan,3.5
+Tokelau,NA
+Turkmenistan,3.23
+Timor-Leste,3.22
+Tonga,NA
+Trinidad and Tobago,3.91
+Tunisia,3.67
+Turkey,3.52
+Tuvalu,2.93
+Tanzania,3.15
+Uganda,3.1
+Ukraine,3.11
+United States Minor Outlying Islands,2.84
+Uruguay,3.59
+United States,3.13
+Uzbekistan,3.24
+Vatican City,3.5
+Saint Vincent and the Grenadines,3.06
+Venezuela,3.15
+British Virgin Islands,3.15
+US Virgin Islands,3.15
+Vietnam,3.89
+Vanuatu,2.96
+Wallis and Futuna,NA
+Samoa,NA
+Yemen,3.73
+South Africa,3.36
+Zambia,3.68
+Zimbabwe,3.2
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
