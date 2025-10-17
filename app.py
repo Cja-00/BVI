@@ -9,16 +9,6 @@ st.set_page_config(page_title="Biosecurity Vigilance Index — Dashboard", page_
 pio.templates.default = "plotly_white"
 alt.themes.enable("quartz")
 
-import os, pathlib, streamlit as st, sys
-st.sidebar.write("Streamlit:", st.__version__)
-st.sidebar.write("Python:", sys.version)
-st.sidebar.write("CWD:", pathlib.Path().resolve())
-st.sidebar.write("Has 'pages':", os.path.isdir("pages"))
-st.sidebar.write("Pages files:", os.listdir("pages") if os.path.isdir("pages") else "—")
-st.sidebar.write("showSidebarNavigation:", st.config.get_option("client.showSidebarNavigation"))
-
-
-
 
 st.title("🛡️ Biosecurity Vigilance Index — Dashboard")
 st.caption("Use the **Pages** in the left sidebar to explore the 🌍 Country & Map, 🔗 Compare with External, and 📈 Global trends.")
@@ -34,4 +24,5 @@ with st.sidebar:
         st.info("Loaded default CSV from repository. Upload a file to override.")
 
 st.write("Pick a page from the left sidebar.")
+
 
