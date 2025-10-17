@@ -9,14 +9,14 @@ st.set_page_config(page_title="Biosecurity Vigilance Index — Dashboard", page_
 pio.templates.default = "plotly_white"
 alt.themes.enable("quartz")
 
-# safe diagnostics (keep temporarily)
-import os, pathlib, streamlit as st
-with st.sidebar:
-    st.write("Streamlit:", st.__version__)
-    st.write("CWD:", pathlib.Path().resolve())
-    st.write("Has 'pages' dir:", os.path.isdir("pages"))
-    st.write("Pages files:", os.listdir("pages") if os.path.isdir("pages") else "—")
-    st.write("showSidebarNavigation:", st.config.get_option("client.showSidebarNavigation"))
+import os, pathlib, streamlit as st, sys
+st.sidebar.write("Streamlit:", st.__version__)
+st.sidebar.write("Python:", sys.version)
+st.sidebar.write("CWD:", pathlib.Path().resolve())
+st.sidebar.write("Has 'pages':", os.path.isdir("pages"))
+st.sidebar.write("Pages files:", os.listdir("pages") if os.path.isdir("pages") else "—")
+st.sidebar.write("showSidebarNavigation:", st.config.get_option("client.showSidebarNavigation"))
+
 
 
 
@@ -34,3 +34,4 @@ with st.sidebar:
         st.info("Loaded default CSV from repository. Upload a file to override.")
 
 st.write("Pick a page from the left sidebar.")
+
