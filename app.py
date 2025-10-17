@@ -2,6 +2,8 @@
 import streamlit as st
 import altair as alt
 import plotly.io as pio
+from utils import load_index_from_bytes
+
 
 st.set_page_config(page_title="Biosecurity Vigilance Index — Dashboard", page_icon="🛡️", layout="wide")
 pio.templates.default = "plotly_white"
@@ -30,6 +32,7 @@ with st.sidebar:
         st.info("Loaded default CSV from repository. Upload a file to override.")
 
 st.write("Pick a page from the left sidebar.")
+
 
 
 
