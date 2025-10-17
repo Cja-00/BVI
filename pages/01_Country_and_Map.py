@@ -1,7 +1,14 @@
 # pages/01_🌍 Country & Map.py
+# -*- coding: utf-8 -*-
+import streamlit as st
+try:
+    pass  # import your libs below normally
+except Exception as e:
+    st.sidebar.error(f"Page import error: {e}")
+    raise
+
 import numpy as np
 import pandas as pd
-import streamlit as st
 import altair as alt
 import plotly.graph_objects as go
 from streamlit_plotly_events import plotly_events
@@ -12,16 +19,7 @@ from utils import (
     BUCKET_YEARLY, BUCKET_CUM, available_columns, percentile_rank
 )
 
-import streamlit as st
-try:
-    import numpy as np, pandas as pd, altair as alt
-    import plotly.graph_objects as go
-    # only on the Country & Map page if used:
-    from streamlit_plotly_events import plotly_events
-    from utils import (...)  # your actual utils imports
-except Exception as e:
-    st.sidebar.error(f"Page import error: {e}")
-    raise
+
 
 st.title("🌍 Country & Map")
 
@@ -315,4 +313,5 @@ with st.expander("ℹ️ Notes"):
 - If an external file lacks a `year` column, the app tries to infer it or uses the provided default on that page.
 - Toggle **log scales** for GDP-like skews; color by **region** for quick structure.
 """)
+
 
